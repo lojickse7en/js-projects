@@ -109,7 +109,7 @@ function getRandomNumber() {
 
 
 function getRandomSymbol() {
-    const symbols = '!@#$%^&*(){}[]=<>/,.';
+    const symbols = '!@#$%^&*(){}[]=<>/,.'; //
     return symbols[Math.floor(Math.random() * symbols.length)]; //get a character of a string in the form of an array. 
 }
 
